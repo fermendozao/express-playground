@@ -1,8 +1,10 @@
 var express = require("express");
+var morgan = require("morgan");
 var path = require("path");
 var fs = require("fs");
 
 var app = express();
+app.use(morgan("short"));
 
 app.use(function(req, res, next) {
   console.log("Request IP: " + req.url);
