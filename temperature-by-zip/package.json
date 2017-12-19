@@ -1,0 +1,7 @@
+{
+  "name": "temperature-by-zip",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
